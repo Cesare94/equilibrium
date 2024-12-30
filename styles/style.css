@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 395px;
+    margin: 20% auto;
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    box-shadow: 10px  10px 5px hsl(217, 54%, 11%),
+    -10px -10px 5px hsl(217, 54%, 11%),
+     10px -10px 5px hsl(217, 54%, 11%),
+    -10px  10px 5px hsl(217, 54%, 11%),
+    20px  10px 10px hsl(216, 50%, 16%),
+    -20px -10px 10px hsl(216, 50%, 16%),
+     20px -10px 10px hsl(216, 50%, 16%),
+    -20px  10px 10px hsl(216, 50%, 16%);
+   
+    
+    
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+
+.image:hover {
+    border: 1px solid hsl(178, 100%, 50%);
+  
+    
+}
+
+    
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+   
+}
+
+
+.ethereum {
+    width: 3%;
+}
+
+b {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+}
+
+.clock {
+    width: 4%;
+    margin-left: 42%;
+}
+
+span {
+    position: relative;
+    left: 1%;
+    bottom: 1%;
+}
+
+hr {
+    margin: 5% 0;
+
+}
+
+
+.avatar {
+    width: 10%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.description {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+strong:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+
+@media screen and (max-width: 578px) {
+    .container {
+        width: 358px;
+        margin: 20% auto;
+        padding: 5%;
+        
+    }
+}
+
+
